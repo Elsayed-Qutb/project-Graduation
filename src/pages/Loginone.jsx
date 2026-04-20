@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 
 import React, { useState } from "react";
 import { Heart } from "lucide-react";
-import Users from "../assets/User.png";
+import Users from "../assets/user.png";
 import doctoricon from "../assets/doctoricon.svg";
 
 export default function Loginone() {
