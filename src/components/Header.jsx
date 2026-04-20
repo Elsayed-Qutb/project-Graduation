@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Heart } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 export default function Header() {
+  const navigate = useNavigate();
   const [open, setOpen] = useState(false);
 
   return (
@@ -17,10 +19,10 @@ export default function Header() {
         </div>
 
         <nav className="hidden lg:flex gap-7 font-medium text-gray-600 shadow-md shadow-blue-600/20 p-3 rounded-2xl border border-blue-200">
-          <a href="#" className="hover:text-blue-500 transition">
+          <a  className="hover:text-blue-500 transition">
             Home
           </a>
-          <a href="#" className="hover:text-blue-500 transition">
+          <a  className="hover:text-blue-500 transition">
             Doctors
           </a>
           <a href="#" className="hover:text-blue-500 transition">
@@ -35,8 +37,8 @@ export default function Header() {
         </nav>
 
         <div className=" hidden lg:flex gap-3">
-          <button className="btn"  >
-            <span className="span-mother">
+          <button onClick={() => navigate("login")} className="btn "  >
+            <span  className="span-mother ">
               <span>L</span>
               <span>o</span>
               <span>g</span>
@@ -58,7 +60,7 @@ export default function Header() {
               <span>i</span>
               <span>g</span>
               <span>n</span>
-              <span> </span>
+              <span className="text-black/5">-</span>
               <span>I</span>
               <span>n</span>
             </span>
@@ -67,7 +69,7 @@ export default function Header() {
               <span>i</span>
               <span>g</span>
               <span>n</span>
-              <span> </span>
+              <span className="text-black/5">-</span>
               <span>I</span>
               <span>n</span>
             </span>
@@ -108,7 +110,7 @@ export default function Header() {
           <a href="#">About</a>
           <a href="#">Contact</a>
 
-          <button className= "bg-blue-500 px-4 py-2 rounded-lg text-white w-32">
+          <button onClick={() => navigate("login")} className= "bg-blue-500 px-4 py-2 rounded-lg text-white w-32">
             Login
           </button>
 

@@ -11,8 +11,8 @@ import teeth from "../assets/teeth.png";
 export default function Specialities() {
   return (
     <div>
-      <section className="flex justify-center mt-4 lg:mt-12">
-        <div className="container flex flex-col justify-center items-center p-3.5 lg:p-6 ">
+      <section className="flex justify-center mt-4 lg:mt-12 border-b border-black/15">
+        <div className="container flex flex-col justify-center items-center p-3.5 lg:p-6 mb-4">
           <p className="font-semibold bg-blue-100 text-blue-900 px-1.5 py-1.5 rounded-2xl w-4/12  lg:w-1/12 text-center text-[13px] mb-9">
             Specialities
           </p>
@@ -23,7 +23,7 @@ export default function Specialities() {
               specialities covered.
             </p>
           </div>
-          <div className="grid grid-cols-2 lg:grid-cols-5 gap-2.5 lg:gap-4.5 mb-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2.5 lg:gap-4.5 mb-6">
             <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl hover:border border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
               <Stethoscope
                 className="bg-[#e7f6fd] rounded-2xl size-10 p-1.5"
