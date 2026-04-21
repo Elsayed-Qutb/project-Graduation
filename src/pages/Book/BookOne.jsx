@@ -1,7 +1,7 @@
 import React from "react";
-import "../pages/BookOne.css";
 import { useNavigate } from "react-router-dom";
-import DrKumar from "../assets/DrKumar.svg";
+import DrKumar from "../../assets/DrKumar.svg";
+import './BookOne.css'
 
 export default function BookOne() {
   const navigate = useNavigate();
@@ -10,39 +10,90 @@ export default function BookOne() {
     <div>
       <section className=" flex justify-center">
         <div className="container  flex flex-col justify-center items-center  p-4 lg:p-8">
-          <div className="radio-input">
-            <label>
-              <span className="one">1</span>
-            </label>
-
-            <label>
-              <span className="two">2</span>
-            </label>
-
-            <label>
-              <span className="three">3</span>
-            </label>
-
-            <label>
-              <span className="four">4</span>
-            </label>
+              <div class="loaderone">
+            <div class="barone"></div>
+            <div class="check-bar-containerone">
+              <div></div>
+              <div class="checkone">
+                <svg
+                  stroke="white"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m4.5 12.75 6 6 9-13.5"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                  ></path>
+                </svg>
+              </div>
+              <div class="check">
+                <svg
+                  stroke="white"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m4.5 12.75 6 6 9-13.5"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                  ></path>
+                </svg>
+              </div>
+              <div class="check">
+                <svg
+                  stroke="white"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m4.5 12.75 6 6 9-13.5"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                  ></path>
+                </svg>
+              </div>
+              <div class="check">
+                <svg
+                  stroke="white"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m4.5 12.75 6 6 9-13.5"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                  ></path>
+                </svg>
+              </div>
+            </div>
           </div>
-          <div className="radio-input plain text-center">
-            <label>
-              <span className=" text-[12px] lg:text-[13.5px]">Select Date</span>
-            </label>
 
-            <label>
-              <span className=" text-[12px] lg:text-[13.5px]">Patient Info</span>
-            </label>
+          <div className=" w-full lg:w-1/2 flex justify-between mt-3 items-center  text-[12px] lg:text-[16px] px-3 text-green-800 mb-2 ">
+            <span className="bg-green-300 px-2 py-1 rounded-2xl font-bold">
+              Select Date
+            </span>
 
-            <label>
-              <span className=" text-[12px] lg:text-[13.5px]">Review</span>
-            </label>
+            <span className="bg-green-100 text-green-600 px-2 py-1 rounded-2xl font-bold">
+              {" "}
+              Patient Info
+            </span>
 
-            <label>
-              <span className=" text-[12px] lg:text-[13.5px]">Confirmation</span>
-            </label>
+            <span className="bg-green-100 text-green-600 px-2 py-1 rounded-2xl font-bold">
+              Review
+            </span>
+
+            <span className="bg-green-100 text-green-600 px-2 py-1 rounded-2xl font-bold">
+              Confirmation
+            </span>
           </div>
           <div className="bg-[#eff6ff] border border-blue-200 flex gap-4 rounded-2xl mt-3 w-full lg:w-1/2">
             <img src={DrKumar}></img>

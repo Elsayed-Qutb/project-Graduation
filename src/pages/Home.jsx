@@ -16,7 +16,6 @@ export default function Home() {
       <Specialities></Specialities>
       <Finddoctor></Finddoctor>
       <About></About>
-
       <Footer></Footer>
      
     </div>

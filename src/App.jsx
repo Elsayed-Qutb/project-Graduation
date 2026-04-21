@@ -4,8 +4,10 @@ import Home from "./pages/Home";
 import Signin from "./pages/Signin";
 import LoginDoctor from "./pages/LoginDoctor";
 import AccPatient from "./pages/AccPatient";
-import BookOne from "./pages/BookOne";
-import BookTwo from "./pages/BookTwo";
+import BookOne from "./pages/Book/BookOne";
+import BookTwo from "./pages/Book/BookTwo";
+import BookThree from "./pages/Book/BookThree";
+import BookFour from "./pages/Book/BookFour";
 
 export default function App() {
   return (
@@ -18,7 +20,8 @@ export default function App() {
         <Route path="/accPatient" element={<AccPatient />} />
         <Route path="/bookOne" element={<BookOne />} />
         <Route path="/bookTwo" element={<BookTwo />} />
-        
+        <Route path="/bookThree" element={<BookThree />} />
+        <Route path="/bookFour" element={<BookFour />} />
       </Routes>
     </>
   );
