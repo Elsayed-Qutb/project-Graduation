@@ -10,7 +10,7 @@ export default function BookOne() {
     <div>
       <section className=" flex justify-center">
         <div className="container  flex flex-col justify-center items-center  p-4 lg:p-8">
-          <div className="radio-input2">
+          <div className="radio-input">
             <label>
               <span className="one">1</span>
             </label>

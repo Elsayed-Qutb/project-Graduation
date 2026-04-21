@@ -7,7 +7,7 @@ import Finddoctor from '../components/Finddoctor'
 import Footer from '../components/Footer';
 
 export default function Home() {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
   return (
     <div>
@@ -16,6 +16,7 @@ export default function Home() {
       <Specialities></Specialities>
       <Finddoctor></Finddoctor>
       <About></About>
+
       <Footer></Footer>
      
     </div>

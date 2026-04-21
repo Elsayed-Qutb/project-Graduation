@@ -3,7 +3,6 @@ import DrKumar from "../assets/DrKumar.svg";
 import { MapPinPlus } from "lucide-react";
 import { Star } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import Doctor from "../assets/doctor.jpg";
 
 
 
