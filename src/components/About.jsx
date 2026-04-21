@@ -18,8 +18,8 @@ export default function About() {
           <div className="flex flex-col items-center gap-1 mb-2.5 lg:mb-6">
             <h1 className="font-bold text-[25px]">About MediCare</h1>
             <p className="text-gray-500 text-center text-[14px] lg:text-[16px] ">
-              improve the healthcare experience by making it more accessible,
-              transparent, and efficient for everyone.
+              Our mission is to strive for improving the healthcare experience by making it more accessible,
+              transparent, and convenient for everyone.
             </p>
           </div>
           <div className=" w-12/12 lg:w-11/12 grid grid-cols-2 lg:grid-cols-4 gap-2 p-0.5 lg:gap-2.5 mb-6">
@@ -32,21 +32,21 @@ export default function About() {
             </div>
             <div className=" group shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl hover:border border border-black/20 hover:border-[#3cc2a8] transtion duration-200 text-center text-[#3ba0de] hover:text-[#3cc2a8]">
               <CalendarCheck2 className="bg-[#e7f6fd] group-hover:bg-[#d9ffe7] rounded-2xl size-10 p-1.5" />
-              <h1 className="font-bold text-[14px] lg:text-[24px]">10 Lakh+</h1>
+              <h1 className="font-bold text-[14px] lg:text-[24px]">10,000+</h1>
               <p className=" font-normal text-[10px] lg:text-[13px] text-gray-600">
                 Appointments Booked
               </p>
             </div>
             <div className=" group shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl hover:border border border-black/20 hover:border-[#3cc2a8] transtion duration-200 text-center text-[#3ba0de] hover:text-[#3cc2a8]">
               <MapPinPlus className="bg-[#e7f6fd] group-hover:bg-[#d9ffe7] rounded-2xl size-10 p-1.5" />
-              <h1 className="font-bold text-[14px] lg:text-[24px]">100+</h1>
+              <h1 className="font-bold text-[14px] lg:text-[24px]">50+</h1>
               <p className=" font-normal text-[10px] lg:text-[13px] text-gray-600">
                 Cities Covered
               </p>
             </div>
             <div className=" group shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl hover:border border border-black/20 hover:border-[#3cc2a8] transtion duration-200 text-center text-[#3ba0de] hover:text-[#3cc2a8]">
               <Award className="bg-[#e7f6fd] group-hover:bg-[#d9ffe7] rounded-2xl size-10 p-1.5" />
-              <h1 className="font-bold text-[14px] lg:text-[24px]">4.8★</h1>
+              <h1 className="font-bold text-[14px] lg:text-[24px]">4.5★</h1>
               <p className=" font-normal text-[10px] lg:text-[13px] text-gray-600">
                 Patient Rating
               </p>
