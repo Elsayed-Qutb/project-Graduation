@@ -1,0 +1,49 @@
+.radio-input input {
+  display: none;
+}
+
+.radio-input {
+  --container_width: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 9999px;
+  width: var(--container_width);
+  overflow: hidden;
+  border: 1px solid rgba(53, 52, 52, 0.226);
+  background: #fff;
+}
+
+/* كل زرار */
+.radio-input label {
+  flex: 1;
+  padding: 12px 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* خلفية لكل label */
+.radio-input label:nth-child(1) {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.radio-input label:nth-child(2) {
+  background-color: #4d79ff;
+  color: white;
+}
+
+.radio-input label:nth-child(3) {
+  background-color: #28c76f;
+  color: white;
+}
+
+.radio-input label:nth-child(4) {
+  background-color: #ffb300;
+  color: white;
+}

@@ -20,23 +20,16 @@ export default function Hero() {
               Find trusted doctors, clinics, and hospitals near you. Online &
               in-clinic consultations available 24/7.
             </p>
-            <div className="  lg:w-11/12 p-2 lg:p-4 shadow-lg shadow-black/30 rounded-2xl grid grid-cols-4 border border-blue-200 gap-1">
-              <button className="relative overflow-hidden px-4 py-2 bg-blue-500 text-white rounded-[14px] group">
-                <span className="relative z-10">Button</span>
+            <div className="  lg:w-11/12 p-1 lg:p-2 shadow-lg shadow-black/30 rounded-2xl grid grid-cols-2 border border-blue-200 gap-2">
+              <button className="relative overflow-hidden px-2 py-2 lg:px-4 lg:py-2 bg-blue-500 text-white rounded-[14px] group">
+                <span className="relative z-10">Book an Appointment</span>
                 <span className="absolute inset-y-0 left-[-75%] w-1/2 bg-white/70 rotate-12 blur-lg z-0 group-hover:left-[125%] transition-all duration-1000 ease-in-out"></span>
               </button>
-              <button className="relative overflow-hidden px-4 py-2 bg-blue-500 text-white rounded-[14px] group">
-                <span className="relative z-10">Button</span>
+              <button className="relative overflow-hidden px-2 py-2 lg:px-4 lg:py-2 bg-blue-500 text-white rounded-[14px] group">
+                <span className="relative z-10">Find a Doctor</span>
                 <span className="absolute inset-y-0 left-[-75%] w-1/2 bg-white/70 rotate-12 blur-lg z-0 group-hover:left-[125%] transition-all duration-1000 ease-in-out"></span>
               </button>
-              <button className="relative overflow-hidden px-4 py-2 bg-blue-500 text-white rounded-[14px] group">
-                <span className="relative z-10">Button</span>
-                <span className="absolute inset-y-0 left-[-75%] w-1/2 bg-white/70 rotate-12 blur-lg z-0 group-hover:left-[125%] transition-all duration-1000 ease-in-out"></span>
-              </button>
-              <button className="relative overflow-hidden px-4 py-2 bg-blue-500 text-white rounded-[14px] group">
-                <span className="relative z-10">Button</span>
-                <span className="absolute inset-y-0 left-[-75%] w-1/2 bg-white/70 rotate-12 blur-lg z-0 group-hover:left-[125%] transition-all duration-1000 ease-in-out"></span>
-              </button>
+             
               
             </div>
             <div class="container-input">

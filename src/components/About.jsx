@@ -53,9 +53,9 @@ export default function About() {
             </div>
           </div>
 
-          <div className="  grid grid-cols-1 lg:grid-cols-2 rounded-2xl  items-center ">
+          {/* <div className="  grid grid-cols-1 lg:grid-cols-2 rounded-2xl  items-center ">
             <img className=" p-5 rounded-2xl" src={medicalteam}></img>
-            <div className=" p-4 flex flex-col justify-between gap-1.5">
+            <div className=" py -2 flex flex-col justify-between gap-2.5 lg:gap-5">
               <h1 className="font-bold text-[23px]">Our Mission</h1>
               <p className="text-gray-500 text-[14px] lg:text-[18px]">
                 To make healthcare more accessible, simple, and efficient by
@@ -110,7 +110,7 @@ export default function About() {
                 <span className="absolute inset-y-0 left-[-75%] w-1/2 bg-white/70 rotate-12 blur-lg z-0 group-hover:left-[125%] transition-all duration-1000 ease-in-out"></span>
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

@@ -80,17 +80,6 @@ export default function Loginone() {
             <a href="#">Specialties</a>
             <a href="#">About</a>
             <a onClick={() => navigate(-1)}>Back</a>
-
-            <button
-              onClick={() => navigate("LoginDoctor")}
-              className="bg-blue-500 px-4 py-2 rounded-lg text-white w-32"
-            >
-              Login
-            </button>
-
-            <button className="border border-blue-500 px-4 py-2 rounded-lg text-blue-500 w-32">
-              Sign Up
-            </button>
           </div>
         )}
       </header>
@@ -107,8 +96,10 @@ export default function Loginone() {
             <div className=" rounded-2xl flex flex-col justify-center items-center gap-6 border-t-6 border px-6 p-12 border-blue-500 shadow-lg shadow-black/25 text-center">
               <img className="w-2/12" src={doctoricon}></img>
               <h1 className="font-bold text-[29px]">Doctor</h1>
-              <h1>Join our platform, and manage your appointments professionally</h1>
-              <button className="relative overflow-hidden px-4 py-2 bg-blue-500 text-white rounded-[14px] group">
+              <h1>
+                Join our platform, and manage your appointments professionally
+              </h1>
+              <button onClick={() => navigate("/loginDoctor")} className="relative overflow-hidden px-4 py-2 bg-blue-500 text-white rounded-[14px] group">
                 <span className="relative z-10">Register as a Doctor</span>
                 <span className="absolute inset-y-0 left-[-75%] w-1/2 bg-white/70 rotate-12 blur-lg z-0 group-hover:left-[125%] transition-all duration-1000 ease-in-out"></span>
               </button>
@@ -117,7 +108,7 @@ export default function Loginone() {
               <img src={Users}></img>
               <h1 className="font-bold text-[29px]">Patient</h1>
               <h1>Find the best doctors and manage your health</h1>
-              <button className="relative overflow-hidden px-4 py-2 bg-blue-500 text-white rounded-[14px] group">
+              <button onClick={() => navigate("/accPatient")} className="relative overflow-hidden px-4 py-2 bg-blue-500 text-white rounded-[14px] group">
                 <span className="relative z-10">Register as a patient</span>
                 <span className="absolute inset-y-0 left-[-75%] w-1/2 bg-white/70 rotate-12 blur-lg z-0 group-hover:left-[125%] transition-all duration-1000 ease-in-out"></span>
               </button>

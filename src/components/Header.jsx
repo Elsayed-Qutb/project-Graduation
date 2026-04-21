@@ -31,7 +31,7 @@ export default function Header() {
           <a href="#" className="hover:text-blue-500 transition">
             About
           </a>
-          <a href="#" className="hover:text-blue-500 transition">
+          <a  className="hover:text-blue-500 transition">
             Contact
           </a>
         </nav>
@@ -54,7 +54,7 @@ export default function Header() {
             </span>
           </button>
 
-          <button className="btn">
+          <button onClick={() => navigate("/signin")} className="btn ">
             <span className="span-mother">
               <span>S</span>
               <span>i</span>
@@ -110,11 +110,11 @@ export default function Header() {
           <a href="#">About</a>
           <a href="#">Contact</a>
 
-          <button onClick={() => navigate("login")} className= "bg-blue-500 px-4 py-2 rounded-lg text-white w-32">
+          <button onClick={() => navigate("/login")} className= "bg-blue-500 px-4 py-2 rounded-lg text-white w-32">
             Login
           </button>
 
-          <button className="border border-blue-500 px-4 py-2 rounded-lg text-blue-500 w-32">
+          <button onClick={() => navigate("/signin")} className="border border-blue-500 px-4 py-2 rounded-lg text-blue-500 w-32">
             Sign Up
           </button>
         </div>

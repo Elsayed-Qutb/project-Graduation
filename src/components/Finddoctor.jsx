@@ -2,8 +2,14 @@ import React from "react";
 import DrKumar from "../assets/DrKumar.svg";
 import { MapPinPlus } from "lucide-react";
 import { Star } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+import Doctor from "../assets/doctor.jpg";
+
+
 
 export default function Finddoctor() {
+    const navigate = useNavigate();
+  
   return (
     <div>
       <section className="flex justify-center mt-4 lg:mt-12">
@@ -57,7 +63,7 @@ export default function Finddoctor() {
                 <p className="mb-7 font-bold text-[22px] absolute bottom-52 left-63 lg:static bg-blue-500 lg:bg-blue-50/5 text-white lg:text-black rounded-2xl p-1.5 ">
                   ₹500
                 </p>
-                <button className="relative overflow-hidden px-4 py-2 bg-blue-500 text-white rounded-[14px] group">
+                <button onClick={() => navigate("/bookOne")} className="relative overflow-hidden px-4 py-2 bg-blue-500 text-white rounded-[14px] group">
                   <span className="relative z-10">Book Now</span>
                   <span className="absolute inset-y-0 left-[-75%] w-1/2 bg-white/70 rotate-12 blur-lg z-0 group-hover:left-[125%] transition-all duration-1000 ease-in-out"></span>
                 </button>

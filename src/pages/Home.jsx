@@ -17,6 +17,7 @@ export default function Home() {
       <Finddoctor></Finddoctor>
       <About></About>
       <Footer></Footer>
+     
     </div>
   )
 }
