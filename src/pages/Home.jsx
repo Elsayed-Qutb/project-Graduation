@@ -5,9 +5,10 @@ import Specialities from '../components/Specialities'
 import About from '../components/About'
 import Finddoctor from '../components/Finddoctor'
 import Footer from '../components/Footer';
+import Contact from "../components/Contact";
 
 export default function Home() {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
   return (
     <div>
@@ -16,6 +17,8 @@ export default function Home() {
       <Specialities></Specialities>
       <Finddoctor></Finddoctor>
       <About></About>
+      <Contact></Contact>
+
       <Footer></Footer>
     </div>
   )
