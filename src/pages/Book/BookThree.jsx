@@ -12,7 +12,7 @@ export default function BookOne() {
         <div className="container  flex flex-col justify-center items-center  p-4 lg:p-8">
           <div class="loaderthree">
             <div class="barthree"></div>
-            <div class="check-bar-containerthree">
+            {/* <div class="check-bar-containerthree">
               <div></div>
               <div class="checkthree">
                 <svg
@@ -74,18 +74,18 @@ export default function BookOne() {
                   ></path>
                 </svg>
               </div>
-            </div>
+            </div> */}
           </div>
 
-          <div className=" w-full lg:w-1/2 flex justify-between mt-3 items-center  text-[12px] lg:text-[16px] px-3 text-green-800 mb-2 ">
-            <span className="bg-green-100  text-green-600 px-2 py-1 rounded-2xl font-bold">
+          <div className=" w-full lg:w-1/2 flex justify-between mt-3 items-center  text-[12px] lg:text-[16px] px-3 text-green-950 mb-2 ">
+            <span className="bg-green-100  text-green-400 px-2 py-1 rounded-2xl font-bold">
               Select Date
             </span>
 
-            <span className="bg-green-100 text-green-600 px-2 py-1 rounded-2xl font-bold">
+            {/* <span className="bg-green-100 text-green-600 px-2 py-1 rounded-2xl font-bold">
               {" "}
               Patient Info
-            </span>
+            </span> */}
 
             <span className="bg-green-300  px-2 py-1 rounded-2xl font-bold">
               Review

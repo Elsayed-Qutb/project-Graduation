@@ -12,7 +12,7 @@ export default function BookTwo() {
         <div className="container  flex flex-col justify-center items-center  p-4 lg:p-8">
           <div class="loaderf">
             <div class="barf"></div>
-            <div class="check-bar-containerf">
+            {/* <div class="check-bar-containerf">
               <div></div>
               <div class="checkf">
                 <svg
@@ -74,18 +74,18 @@ export default function BookTwo() {
                   ></path>
                 </svg>
               </div>
-            </div>
+            </div> */}
           </div>
 
-          <div className=" w-full lg:w-1/2 flex justify-between mt-3 items-center  text-[12px] lg:text-[16px] px-3 text-green-800 mb-2 ">
-            <span className="bg-green-100  text-green-600 px-2 py-1 rounded-2xl font-bold">
+          <div className=" w-full lg:w-1/2 flex justify-between mt-3 items-center  text-[12px] lg:text-[16px] px-3 text-green-950 mb-2 ">
+            <span className="bg-green-100  text-green-400 px-2 py-1 rounded-2xl font-bold">
               Select Date
             </span>
 
-            <span className="bg-green-100  text-green-600 px-2 py-1 rounded-2xl font-bold">
+            {/* <span className="bg-green-100  text-green-600 px-2 py-1 rounded-2xl font-bold">
               {" "}
               Patient Info
-            </span>
+            </span> */}
 
             <span className="bg-green-100 text-green-600 px-2 py-1 rounded-2xl font-bold">
               Review
@@ -109,29 +109,46 @@ export default function BookTwo() {
           </div>
           <div className=" w-full lg:w-1/2 mt-3 flex flex-col py-4 p-1.5 gap-3 rounded-2xl  shadow-lg shadow-blue-300/20">
             <div class="container px-2 py-5 w-full border border-blue-400 rounded-2xl ">
-                <div className="w-full text-center mb-2.5">
-                    <h1 className="font-bold text-[20px] lg:text-[29px]">Booking Confirmed!</h1>
-                    <h1>Your appointment has been successfully booked. A confirmation email has been sent to elsayed@gmail.com</h1>
-                </div>
+              <div className="w-full text-center mb-2.5">
+                <h1 className="font-bold text-[20px] lg:text-[29px]">
+                  Booking Confirmed!
+                </h1>
+                <h1>
+                  Your appointment has been successfully booked. A confirmation
+                  email has been sent to elsayed@gmail.com
+                </h1>
+              </div>
               <div class="">
                 <div class=" lg:px-8 lg:py-6 rounded-lg ">
-                    <div className="flex flex-col gap-3 bg-[#f0fdf4] rounded-2xl shadow-md shadow-blue-200/20 p-2">
-                <h1 className="font-bold text-[15px]">Appointment Details</h1>
-                <div className="flex justify-between ">
-                    <h1 className="font-bold text-[14px] text-gray-600" >Doctor</h1>
-                    <h1 className="font-semibold text-[13px] text-black/90">dr.Ahmed Elgayar</h1>
-                </div>
-                <div className="flex justify-between ">
-                    <h1 className="font-bold text-[14px] text-gray-600">Date</h1>
-                    <h1 className="font-semibold text-[13px] text-black/90">Thursday, April 18, 2024 at 8:00 AM</h1>
-                </div>
-                <div className="flex justify-between ">
-                    <h1 className="font-bold text-[14px] text-gray-600">Loction</h1>
-                    <h1 className="font-semibold text-[13px] text-black/90">tanta city</h1>
-                </div>
-              
-              </div>
-                  
+                  <div className="flex flex-col gap-3 bg-[#f0fdf4] rounded-2xl shadow-md shadow-blue-200/20 p-2">
+                    <h1 className="font-bold text-[15px]">
+                      Appointment Details
+                    </h1>
+                    <div className="flex justify-between ">
+                      <h1 className="font-bold text-[14px] text-gray-600">
+                        Doctor
+                      </h1>
+                      <h1 className="font-semibold text-[13px] text-black/90">
+                        dr.Ahmed Elgayar
+                      </h1>
+                    </div>
+                    <div className="flex justify-between ">
+                      <h1 className="font-bold text-[14px] text-gray-600">
+                        Date
+                      </h1>
+                      <h1 className="font-semibold text-[13px] text-black/90">
+                        Thursday, April 18, 2024 at 8:00 AM
+                      </h1>
+                    </div>
+                    <div className="flex justify-between ">
+                      <h1 className="font-bold text-[14px] text-gray-600">
+                        Loction
+                      </h1>
+                      <h1 className="font-semibold text-[13px] text-black/90">
+                        tanta city
+                      </h1>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

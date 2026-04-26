@@ -5,7 +5,7 @@ import Signin from "./pages/Signin";
 import LoginDoctor from "./pages/LoginDoctor";
 import AccPatient from "./pages/AccPatient";
 import BookOne from "./pages/Book/BookOne";
-import BookTwo from "./pages/Book/BookTwo";
+// import BookTwo from "./pages/Book/BookTwo";
 import BookThree from "./pages/Book/BookThree";
 import BookFour from "./pages/Book/BookFour";
 
@@ -19,7 +19,7 @@ export default function App() {
         <Route path="/loginDoctor" element={<LoginDoctor />} />
         <Route path="/accPatient" element={<AccPatient />} />
         <Route path="/bookOne" element={<BookOne />} />
-        <Route path="/bookTwo" element={<BookTwo />} />
+        {/* <Route path="/bookTwo" element={<BookTwo />} /> */}
         <Route path="/bookThree" element={<BookThree />} />
         <Route path="/bookFour" element={<BookFour />} />
       </Routes>

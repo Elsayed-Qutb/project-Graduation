@@ -10,14 +10,14 @@ import khadija from "./doctors/khadijaehab.png";
 import abdullah from "./doctors/abdullahhassan.png";
 import randa from "./doctors/randahamdy.png";
 import mahmoud from "./doctors/mahmoudsherif.png";
-import reham from "./doctors/rehamabdelghafar.png";
-import salma from "./doctors/salmaadel.png";
-import amany from "./doctors/amanywahba.png";
-import hanady from "./doctors/hanadywahba.png";
-import hana from "./doctors/hanaelsherbiny.png";
-import hadeer from "./doctors/hadeerelshafei.png";
-import kamillia from "./doctors/kamilliagerges.png";
-import youstina from "./doctors/youstinamalak.png";
+// import reham from "./doctors/rehamabdelghafar.png";
+// import salma from "./doctors/salmaadel.png";
+// import amany from "./doctors/amanywahba.png";
+// import hanady from "./doctors/hanadywahba.png";
+// import hana from "./doctors/hanaelsherbiny.png";
+// import hadeer from "./doctors/hadeerelshafei.png";
+// import kamillia from "./doctors/kamilliagerges.png";
+// import youstina from "./doctors/youstinamalak.png";
 
 
 
@@ -74,7 +74,7 @@ export default function Finddoctor() {
                   Consultation Fee
                 </h1>
                 <p className="mb-7 font-bold text-[22px] absolute bottom-52 left-63 lg:static bg-blue-500 lg:bg-blue-50/5 text-white lg:text-black rounded-2xl p-1.5 ">
-                  L.E. 500
+                  L.E. 700
                 </p>
                 <button onClick={() => navigate("/bookOne")} className="relative overflow-hidden px-4 py-2 bg-blue-500 text-white rounded-[14px] group">
                   <span className="relative z-10">Book Now</span>
@@ -116,7 +116,7 @@ export default function Finddoctor() {
                 <p className="mb-7 font-bold text-[22px] absolute bottom-52 left-63 lg:static bg-blue-500 lg:bg-blue-50/5 text-white lg:text-black rounded-2xl p-1.5 ">
                   L.E. 500
                 </p>
-                <button className="relative overflow-hidden px-4 py-2 bg-blue-500 text-white rounded-[14px] group">
+                <button  className="relative overflow-hidden px-4 py-2 bg-blue-500 text-white rounded-[14px] group">
                   <span className="relative z-10">Book Now</span>
                   <span className="absolute inset-y-0 left-[-75%] w-1/2 bg-white/70 rotate-12 blur-lg z-0 group-hover:left-[125%] transition-all duration-1000 ease-in-out"></span>
                 </button>
@@ -284,7 +284,7 @@ export default function Finddoctor() {
               </div>
             </div>
 
-            <div className="flex flex-col lg:flex-row justify-between gap-3 lg:gap-0 p-2 shadow-lg shadow-black/30 rounded-2xl relative">
+            {/* <div className="flex flex-col lg:flex-row justify-between gap-3 lg:gap-0 p-2 shadow-lg shadow-black/30 rounded-2xl relative">
               <img src={reham} className="w-32 h-32 object-cover rounded-xl"></img>
 
               <div className=" w-9/12 flex flex-col gap-1.5">
@@ -602,7 +602,7 @@ export default function Finddoctor() {
                   <span className="absolute inset-y-0 left-[-75%] w-1/2 bg-white/70 rotate-12 blur-lg z-0 group-hover:left-[125%] transition-all duration-1000 ease-in-out"></span>
                 </button>
               </div>
-            </div>
+            </div> */}
 
 
           </div>

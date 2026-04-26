@@ -44,9 +44,9 @@
   transform: scale(0.85);
 }
 
-.check:nth-child(2) {
+/* .check:nth-child(2) {
   background-color: #28c76f;
-}
+} */
 
 .check:nth-child(3) {
   background-color: #28c76f;
