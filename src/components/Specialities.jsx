@@ -21,8 +21,8 @@ export default function Specialities() {
           </p>
 
           <div className="flex flex-col items-center gap-1 mb-2.5 lg:mb-6">
-            <h1 className="font-bold text-[25px]">Browse by Speciality</h1>
-            <p className="text-gray-500 text-center text-[14px] lg:text-[16px] ">
+            <h1 className="font-bold text-[40px]">Browse by Speciality</h1>
+            <p className="text-gray-500 text-center text-[20px] lg:text-[16px] ">
               Find the right specialist for your health needs. 25+ medical
               specialities covered.
             </p>

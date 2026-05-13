@@ -12,20 +12,20 @@ import { useNavigate } from "react-router-dom";
 
 export default function Specialities() {
   const navigate = useNavigate();
-  
+
   return (
     <div>
       <section className="flex justify-center mt-4 lg:mt-12 border-b border-black/15">
         <div className="container flex flex-col justify-center items-center p-3.5 lg:p-6 mb-4">
           <div className="flex flex-col items-center gap-1 mb-2.5 lg:mb-6">
-            <h1 className="font-bold text-[25px]">Browse by Speciality</h1>
-            <p className="text-gray-500 text-center text-[14px] lg:text-[16px] ">
+            <h1 className="font-bold text-[40px]">Choose the Speciality</h1>
+            <p className="text-gray-500 text-center text-[20px] lg:text-[16px] ">
               Find the right specialist for your health needs. 15+ medical
               specialities covered.
             </p>
           </div>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2.5 lg:gap-4.5 mb-6">
-              <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl hover:border border border-black/20 hover:border-blue-400 transition duration-200 text-center">
+              <div onClick={() => navigate("/generalPractice")} className="cursor-pointer shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl hover:border border border-black/20 hover:border-blue-400 transition duration-200 text-center">
               <Stethoscope
                 className="bg-[#e7f6fd] rounded-2xl size-10 p-1.5"
                 color="#3ba0de"
@@ -39,7 +39,7 @@ export default function Specialities() {
               </p>
             </div>
 
-            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transition duration-200 text-center">
+            <div onClick={() => navigate("/dentistry")} className="cursor-pointer shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transition duration-200 text-center">
               <img
                 className="w-3/12 bg-[#dedede] rounded-2xl p-1.5"
                 src={teeth}
@@ -53,7 +53,7 @@ export default function Specialities() {
               </p>
             </div>
 
-            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transition duration-200 text-center">
+            <div onClick={() => navigate("/dermatology")} className="cursor-pointer shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transition duration-200 text-center">
               <Leaf
                 className="bg-[#e6f9f5] rounded-2xl size-10 p-1.5"
                 color="#29b694"
@@ -67,7 +67,7 @@ export default function Specialities() {
               </p>
             </div>
 
-            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+            <div onClick={() => navigate("/gynecology")} className="cursor-pointer shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transition duration-200 text-center">
               <Venus 
                 className="bg-[#ffe5f5] rounded-2xl size-10 p-1.5"
                 color="#d03678"
@@ -81,7 +81,7 @@ export default function Specialities() {
               </p>
             </div>
 
-            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+            <div onClick={() => navigate("/pediatrics")} className="cursor-pointer shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transition duration-200 text-center">
               <Baby
                 className="bg-[#ffedd3] rounded-2xl size-10 p-1.5"
                 color="#d6662f"
@@ -95,7 +95,7 @@ export default function Specialities() {
               </p>
             </div>
 
-            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+            <div onClick={() => navigate("/orthopedics")} className="cursor-pointer shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transition duration-200 text-center">
               <Bone 
                 className="bg-[#e7f9ed] rounded-2xl size-10 p-1.5"
                 color="#3ab96d"
@@ -109,7 +109,7 @@ export default function Specialities() {
               </p>
             </div>
 
-            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+            <div onClick={() => navigate("/cardiology")} className="cursor-pointer shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transition duration-200 text-center">
               <HeartPlus 
                 className="bg-[#f8e5e3] rounded-2xl size-10 p-1.5"
                 color="#d32e31"
@@ -123,7 +123,7 @@ export default function Specialities() {
               </p>
             </div>
 
-            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+            <div onClick={() => navigate("/psychiatry")} className="cursor-pointer shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transition duration-200 text-center">
               <Brain 
                 className="bg-[#f4e8ff] rounded-2xl size-10 p-1.5"
                 color="#9647e4"
@@ -137,7 +137,7 @@ export default function Specialities() {
               </p>
             </div>
 
-            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+            <div onClick={() => navigate("/ophthalmology")} className="cursor-pointer shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transition duration-200 text-center">
               <Eye 
                 className="bg-[#cffbfe] rounded-2xl size-10 p-1.5"
                 color="#52b3c8"
@@ -151,7 +151,7 @@ export default function Specialities() {
               </p>
             </div>
 
-            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+            <div onClick={() => navigate("/endocrinology")} className="cursor-pointer shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transition duration-200 text-center">
               <Tablets 
                 className="bg-[#cee0ff] rounded-2xl size-10 p-1.5"
                 color="#001a46"
@@ -165,7 +165,7 @@ export default function Specialities() {
               </p>
             </div>
 
-            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+            <div onClick={() => navigate("/nephrology")} className="cursor-pointer shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transition duration-200 text-center">
               <Bean 
                 className="bg-[#ffebeb] rounded-2xl size-10 p-1.5"
                 color="#e76b6b"
@@ -179,7 +179,7 @@ export default function Specialities() {
               </p>
             </div>
 
-            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+            <div onClick={() => navigate("/neurology")} className="cursor-pointer shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transition duration-200 text-center">
               <Activity 
                 className="bg-[#ffecde] rounded-2xl size-10 p-1.5"
                 color="#502100"
@@ -193,7 +193,7 @@ export default function Specialities() {
               </p>
             </div>
 
-            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+            <div onClick={() => navigate("/otolaryngology")} className="cursor-pointer shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transition duration-200 text-center">
               <Ear 
                 className="bg-[#f6ffcd] rounded-2xl size-10 p-1.5"
                 color="#415000"
@@ -207,7 +207,7 @@ export default function Specialities() {
               </p>
             </div>
 
-             <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+             <div onClick={() => navigate("/plastic-surgery")} className="cursor-pointer shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transition duration-200 text-center">
               <Syringe 
                 className="bg-[#ffd4ff] rounded-2xl size-10 p-1.5"
                 color="#b93ab9"
@@ -221,7 +221,7 @@ export default function Specialities() {
               </p>
             </div>
 
-             <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+             <div onClick={() => navigate("/physical-therapy")} className="cursor-pointer shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transition duration-200 text-center">
               <HouseHeart 
                 className="bg-[#e2fff0] rounded-2xl size-10 p-1.5"
                 color="#004121"

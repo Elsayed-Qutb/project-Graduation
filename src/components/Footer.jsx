@@ -16,7 +16,7 @@ export default function Footer() {
                   color="white"
                 />
                 <h1 className="font-bold text-[20px] lg:text-[23px] text-blue-500">
-                  Medicare
+                  Medilink
                 </h1>
               </div>
               <h1>

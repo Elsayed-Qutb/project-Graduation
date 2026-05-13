@@ -16,17 +16,17 @@ export default function Header() {
             size={40}
             color="white"
           />
-          <h1 className="font-bold text-[20px] lg:text-[27px] text-blue-700">Medicare</h1>
+          <h1 className="font-bold text-[20px] lg:text-[27px] text-blue-700">MediLink</h1>
         </div>
 
         <nav className="hidden lg:flex gap-7 font-medium text-gray-600 shadow-md shadow-blue-600/20 p-3 rounded-2xl border border-blue-200">
           <a  className="hover:text-blue-500 transition">
             Home
           </a>
-          <a  className="hover:text-blue-500 transition">
+          <Link to = "/doctors-list" className="hover:text-blue-500 transition">
             Doctors
-          </a>
-        <Link to="/specialitiesList" className="hover:text-blue-500 transition">
+          </Link>
+        <Link to="/specialtiesList" className="hover:text-blue-500 transition">
           Specialties
         </Link>
           <a href="#" className="hover:text-blue-500 transition">

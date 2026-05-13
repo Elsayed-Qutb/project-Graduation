@@ -16,7 +16,7 @@ export default function About() {
             About Us
           </p>
           <div className="flex flex-col items-center gap-1 mb-2.5 lg:mb-6">
-            <h1 className="font-bold text-[25px]">About MediCare</h1>
+            <h1 className="font-bold text-[40px]">About MediCare</h1>
             <p className="text-gray-500 text-center text-[14px] lg:text-[16px] ">
               Our mission is to strive for improving the healthcare experience by making it more accessible,
               transparent, and convenient for everyone.

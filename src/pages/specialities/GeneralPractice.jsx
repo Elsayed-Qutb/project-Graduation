@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import amira from "./doctors/amiraelsayed.png";
 import hana from "./doctors/hanaelsherbiny.png";
 
-export default function Finddoctor() {
+export default function GeneralPractice() {
   const navigate = useNavigate();
 
   return (
@@ -15,7 +15,7 @@ export default function Finddoctor() {
 
           <div className="flex flex-col items-center gap-4 mb-6">
             <h1 className="font-bold text-[25px] text-center">
-              Search For Doctors in General Practice
+              Search For Doctors in <b>General Practice</b> in <b>Tanta</b>
             </h1>
           </div>
 
@@ -101,6 +101,9 @@ export default function Finddoctor() {
               </div>
             </div>
 
+              <span className="agreement">
+              <button onClick={() => navigate(-1)} className=" login-button px-3 py-1.5 bg-[#1192d3] rounded-2xl text-white font-bold">Back</button>
+            </span>
           </div>
         </div>
       </section>
