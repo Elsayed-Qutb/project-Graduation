@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Heart } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const navigate = useNavigate();
@@ -25,9 +26,9 @@ export default function Header() {
           <a  className="hover:text-blue-500 transition">
             Doctors
           </a>
-          <a href="#" className="hover:text-blue-500 transition">
-            Specialties
-          </a>
+        <Link to="/specialitiesList" className="hover:text-blue-500 transition">
+          Specialties
+        </Link>
           <a href="#" className="hover:text-blue-500 transition">
             About
           </a>
