@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import amira from "../../components/doctors/amiraelsayed.png";
-
 import "./BookThree.css";
 
 export default function BookOne() {
@@ -98,6 +97,7 @@ export default function BookOne() {
           </div>
           <div className="bg-[#eff6ff] border border-blue-200 flex gap-4 rounded-2xl mt-3 w-full lg:w-1/2">
             <img
+<<<<<<< HEAD
               className="w-23 h-23 rounded-xl object-cover shrink-0"
               src={amira}
             ></img>

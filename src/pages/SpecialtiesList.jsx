@@ -35,7 +35,7 @@ export default function Specialities() {
                 Colds, fevers, infections & more
               </p>
               <p className=" font-semibold text-[14px] text-blue-400">
-               1,000+ doctors
+               500+ doctors
               </p>
             </div>
 
@@ -49,7 +49,7 @@ export default function Specialities() {
                 Dental care & oral health
               </p>
               <p className=" font-semibold text-[14px] text-blue-400">
-                1,500+ doctors
+                400+ doctors
               </p>
             </div>
 
@@ -63,7 +63,7 @@ export default function Specialities() {
                 Skin, hair & nail care
               </p>
               <p className=" font-semibold text-[14px] text-blue-400">
-                800+ doctors
+                450+ doctors
               </p>
             </div>
 
@@ -77,7 +77,7 @@ export default function Specialities() {
                 Women's health 
               </p>
               <p className=" font-semibold text-[14px] text-blue-400">
-                1,000+ doctors
+                600+ doctors
               </p>
             </div>
 
@@ -105,7 +105,7 @@ export default function Specialities() {
                 Bone & joint specialists
               </p>
               <p className=" font-semibold text-[14px] text-blue-400">
-                1,800+ doctors
+                800+ doctors
               </p>
             </div>
 
@@ -119,7 +119,7 @@ export default function Specialities() {
                 Heart & cardiovascular
               </p>
               <p className=" font-semibold text-[14px] text-blue-400">
-                1,500+ doctors
+                500+ doctors
               </p>
             </div>
 
@@ -133,7 +133,7 @@ export default function Specialities() {
                 Mental health & wellness
               </p>
               <p className=" font-semibold text-[14px] text-blue-400">
-                1,200+ doctors
+                250+ doctors
               </p>
             </div>
 
@@ -147,7 +147,7 @@ export default function Specialities() {
                 Eye care & vision
               </p>
               <p className=" font-semibold text-[14px] text-blue-400">
-                900+ doctors
+                450+ doctors
               </p>
             </div>
 
@@ -161,7 +161,7 @@ export default function Specialities() {
                 Hormonal disorders
               </p>
               <p className=" font-semibold text-[14px] text-blue-400">
-                1,800+ doctors
+                550+ doctors
               </p>
             </div>
 
@@ -175,7 +175,7 @@ export default function Specialities() {
                 Kidney care
               </p>
               <p className=" font-semibold text-[14px] text-blue-400">
-                1,800+ doctors
+                500+ doctors
               </p>
             </div>
 
@@ -189,7 +189,7 @@ export default function Specialities() {
                 Nervous system disorders
               </p>
               <p className=" font-semibold text-[14px] text-blue-400">
-                1,800+ doctors
+                300+ doctors
               </p>
             </div>
 
@@ -203,7 +203,7 @@ export default function Specialities() {
                 Ears, nose & throat
               </p>
               <p className=" font-semibold text-[14px] text-blue-400">
-                1,800+ doctors
+                650+ doctors
               </p>
             </div>
 
@@ -217,7 +217,7 @@ export default function Specialities() {
                 Cosmetic procedures
               </p>
               <p className=" font-semibold text-[14px] text-blue-400">
-                1,800+ doctors
+                800+ doctors
               </p>
             </div>
 
@@ -231,7 +231,7 @@ export default function Specialities() {
                 Movement & injury rehabilitation
               </p>
               <p className=" font-semibold text-[14px] text-blue-400">
-                1,800+ doctors
+                750+ doctors
               </p>
             </div>
 

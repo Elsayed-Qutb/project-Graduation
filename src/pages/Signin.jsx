@@ -16,7 +16,7 @@ export default function Signin() {
             <div className=" flex flex-col  text-center">
               <h1 className="font-bold text-[34px] lg:text-[40px] ">
                 Welcome Back <br></br>
-                <span className="text-blue-800">Sign in to Medicare</span>
+                <span className="text-blue-800">Sign in to MediLink</span>
               </h1>
               <p className="font-medium text-[22px] text-gray-500">
                 Your health, one login away{" "}

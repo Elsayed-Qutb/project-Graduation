@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div>
       <section className="bg-gray-800 flex justify-center">
-        <div className="container grid grid-cols-2 lg:grid-cols-4 gap-10 bg-gray-800 text-gray-300 p-4.5   ">
+        <div className="container grid grid-cols-2 lg:grid-cols-4 gap-10 bg-gray-800 text-gray-300 p-4.5 ml-80 ">
           <div className="w-11/12">
             <div className="flex flex-col gap-2.5">
               <div className="flex items-center gap-2">

@@ -38,7 +38,7 @@ export default function Specialities() {
                 Colds, fevers, infections & more
               </p>
               <p className=" font-semibold text-[14px] text-blue-400">
-                1,000+ doctors
+                500+ doctors
               </p>
             </div>
 
@@ -52,77 +52,7 @@ export default function Specialities() {
                 Dental care & oral health
               </p>
               <p className=" font-semibold text-[14px] text-blue-400">
-                3,200+ doctors
-              </p>
-            </div>
-
-            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
-              <Leaf
-                className="bg-[#e6f9f5] rounded-2xl size-10 p-1.5"
-                color="#29b694"
-              />
-              <h1 className="font-bold text-[14px] lg:text-[16px]">Dermatologist</h1>
-              <p className=" font-medium text-[11px] lg:text-[13px] text-gray-600">
-                Skin, hair & nail problems
-              </p>
-              <p className=" font-semibold text-[14px] text-blue-400">
-                2,600+ doctors
-              </p>
-            </div>
-
-            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
-              <Baby 
-                className="bg-[#ffe5f5] rounded-2xl size-10 p-1.5"
-                color="#d03678"
-              />
-              <h1 className="font-bold text-[14px] lg:text-[16px]">Gynecologist</h1>
-              <p className=" font-medium text-[11px] lg:text-[13px] text-gray-600">
-                Women's health 
-              </p>
-              <p className=" font-semibold text-[14px] text-blue-400">
-                2,500+ doctors
-              </p>
-            </div>
-
-            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
-              <Baby
-                className="bg-[#ffedd3] rounded-2xl size-10 p-1.5"
-                color="#d6662f"
-              />
-              <h1 className="font-bold text-[14px] lg:text-[16px]">Pediatrician</h1>
-              <p className=" font-medium text-[11px] lg:text-[13px] text-gray-600">
-                Child health specialists
-              </p>
-              <p className=" font-semibold text-[14px] text-blue-400">
-                2,100+ doctors
-              </p>
-            </div>
-
-            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
-              <Bone 
-                className="bg-[#e7f9ed] rounded-2xl size-10 p-1.5"
-                color="#3ab96d"
-              />
-              <h1 className="font-bold text-[14px] lg:text-[16px]">Orthopedic</h1>
-              <p className=" font-medium text-[11px] lg:text-[13px] text-gray-600">
-                Bone & joint specialists
-              </p>
-              <p className=" font-semibold text-[14px] text-blue-400">
-                1,800+ doctors
-              </p>
-            </div>
-
-            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
-              <HeartPlus 
-                className="bg-[#f8e5e3] rounded-2xl size-10 p-1.5"
-                color="#d32e31"
-              />
-              <h1 className="font-bold text-[14px] lg:text-[16px]">Cardiologist</h1>
-              <p className=" font-medium text-[11px] lg:text-[13px] text-gray-600">
-                Heart & cardiovascular
-              </p>
-              <p className=" font-semibold text-[14px] text-blue-400">
-              400+ doctors
+                400+ doctors
               </p>
             </div>
 
@@ -136,7 +66,7 @@ export default function Specialities() {
                 Skin, hair & nail care
               </p>
               <p className=" font-semibold text-[14px] text-blue-400">
-                1,200+ doctors
+                450+ doctors
               </p>
             </div>
 

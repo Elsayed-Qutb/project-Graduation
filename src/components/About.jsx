@@ -4,8 +4,9 @@ import { MapPinPlus } from "lucide-react";
 import { Award } from "lucide-react";
 import { ShieldPlus } from 'lucide-react'
 import { Star } from 'lucide-react';
+import medicalteam2 from "../assets/doctorteam.png";
 
-import docc from "../assets/docc.jpg";
+// import medicalteam from "../assets/medicalteam.svg";
 
 export default function About() {
   return (
@@ -54,9 +55,7 @@ export default function About() {
           </div>
 
           <div className="  grid grid-cols-1 lg:grid-cols-2 rounded-2xl  items-center ">
-           
-            <img className="bg-cover bg-center p-5 rounded-2xl" src={docc}></img>
-            
+            <img className=" p-5 rounded-2xl" src={medicalteam2}></img>
             <div className=" py -2 flex flex-col justify-between gap-2.5 lg:gap-5">
               <h1 className="font-bold text-[23px]">Our Mission</h1>
               <p className="text-gray-500 text-[14px] lg:text-[18px]">
