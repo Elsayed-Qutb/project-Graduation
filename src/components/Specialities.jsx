@@ -21,8 +21,8 @@ export default function Specialities() {
           </p>
 
           <div className="flex flex-col items-center gap-1 mb-2.5 lg:mb-6">
-            <h1 className="font-bold text-[40px]">Browse by Speciality</h1>
-            <p className="text-gray-500 text-center text-[20px] lg:text-[16px] ">
+            <h1 className="font-bold text-[25px]">Browse by Speciality</h1>
+            <p className="text-gray-500 text-center text-[14px] lg:text-[16px] ">
               Find the right specialist for your health needs. 25+ medical
               specialities covered.
             </p>
@@ -42,28 +42,117 @@ export default function Specialities() {
               </p>
             </div>
 
-            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transition duration-200 text-center">
-              <img className="w-3/12 bg-[#dedede] rounded-2xl p-1.5" src={teeth} />
-              <h1 className="font-bold text-[14px] lg:text-[16px]">Dentistry</h1>
+            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+              <img
+                className="w-3/12 bg-[#dedede] rounded-2xl p-1.5"
+                src={teeth}
+              ></img>
+              <h1 className="font-bold text-[14px] lg:text-[16px]">Dentist</h1>
               <p className=" font-medium text-[11px] lg:text-[13px] text-gray-600">
                 Dental care & oral health
               </p>
               <p className=" font-semibold text-[14px] text-blue-400">
-                1,500+ doctors
+                3,200+ doctors
               </p>
             </div>
 
-            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transition duration-200 text-center">
-              <Leaf className="bg-[#e6f9f5] rounded-2xl size-10 p-1.5" color="#29b694" />
-              <h1 className="font-bold text-[14px] lg:text-[16px]">Dermatology</h1>
+            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+              <Leaf
+                className="bg-[#e6f9f5] rounded-2xl size-10 p-1.5"
+                color="#29b694"
+              />
+              <h1 className="font-bold text-[14px] lg:text-[16px]">Dermatologist</h1>
+              <p className=" font-medium text-[11px] lg:text-[13px] text-gray-600">
+                Skin, hair & nail problems
+              </p>
+              <p className=" font-semibold text-[14px] text-blue-400">
+                2,600+ doctors
+              </p>
+            </div>
+
+            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+              <Baby 
+                className="bg-[#ffe5f5] rounded-2xl size-10 p-1.5"
+                color="#d03678"
+              />
+              <h1 className="font-bold text-[14px] lg:text-[16px]">Gynecologist</h1>
+              <p className=" font-medium text-[11px] lg:text-[13px] text-gray-600">
+                Women's health 
+              </p>
+              <p className=" font-semibold text-[14px] text-blue-400">
+                2,500+ doctors
+              </p>
+            </div>
+
+            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+              <Baby
+                className="bg-[#ffedd3] rounded-2xl size-10 p-1.5"
+                color="#d6662f"
+              />
+              <h1 className="font-bold text-[14px] lg:text-[16px]">Pediatrician</h1>
+              <p className=" font-medium text-[11px] lg:text-[13px] text-gray-600">
+                Child health specialists
+              </p>
+              <p className=" font-semibold text-[14px] text-blue-400">
+                2,100+ doctors
+              </p>
+            </div>
+
+            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+              <Bone 
+                className="bg-[#e7f9ed] rounded-2xl size-10 p-1.5"
+                color="#3ab96d"
+              />
+              <h1 className="font-bold text-[14px] lg:text-[16px]">Orthopedic</h1>
+              <p className=" font-medium text-[11px] lg:text-[13px] text-gray-600">
+                Bone & joint specialists
+              </p>
+              <p className=" font-semibold text-[14px] text-blue-400">
+                1,800+ doctors
+              </p>
+            </div>
+
+            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+              <HeartPlus 
+                className="bg-[#f8e5e3] rounded-2xl size-10 p-1.5"
+                color="#d32e31"
+              />
+              <h1 className="font-bold text-[14px] lg:text-[16px]">Cardiologist</h1>
+              <p className=" font-medium text-[11px] lg:text-[13px] text-gray-600">
+                Heart & cardiovascular
+              </p>
+              <p className=" font-semibold text-[14px] text-blue-400">
+              400+ doctors
+              </p>
+            </div>
+
+            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+              <Brain 
+                className="bg-[#f4e8ff] rounded-2xl size-10 p-1.5"
+                color="#9647e4"
+              />
+              <h1 className="font-bold text-[14px] lg:text-[16px]">Psychiatrist</h1>
               <p className=" font-medium text-[11px] lg:text-[13px] text-gray-600">
                 Skin, hair & nail care
               </p>
               <p className=" font-semibold text-[14px] text-blue-400">
-                800+ doctors
+                1,200+ doctors
               </p>
             </div>
 
+            <div className="shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl border border-black/20 hover:border-blue-400 transtion duration-200 text-center">
+              <Eye 
+                className="bg-[#cffbfe] rounded-2xl size-10 p-1.5"
+                color="#52b3c8"
+              />
+              <h1 className="font-bold text-[14px] lg:text-[16px]">Ophthalmologist</h1>
+              <p className=" font-medium text-[11px] lg:text-[13px] text-gray-600">
+                Eye care & vision
+              </p>
+              <p className=" font-semibold text-[14px] text-blue-400">
+                900+ doctors
+              </p>
+            </div>
           </div>
 
           <h1 className="font-bold text-[25px] text-center">And more...</h1>

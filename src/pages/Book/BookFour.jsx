@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import DrKumar from "../../assets/DrKumar.svg";
+import amira from "../../components/doctors/amiraelsayed.png";
+
 import "./BookFour.css";
 
 export default function BookTwo() {
@@ -97,13 +98,16 @@ export default function BookTwo() {
           </div>
 
           <div className="bg-[#eff6ff] border border-blue-200 flex gap-4 rounded-2xl mt-3 w-full lg:w-1/2">
-            <img src={DrKumar}></img>
+            <img
+              className="w-23 h-23 rounded-xl object-cover shrink-0"
+              src={amira}
+            ></img>
             <div className="flex flex-col items-start justify-center gap-2">
-              <h1 className="font-bold">Dr. Elsayed Aboshady</h1>
+              <h1 className="font-bold">Dr. Amira Elsayed</h1>
               <h1 className="text-blue-700 font-semibold">General Physician</h1>
               <h1 className="text-gray-600 text-[15px]">
                 {" "}
-                $50 per consultation
+                $700 per consultation
               </h1>
             </div>
           </div>
@@ -129,7 +133,7 @@ export default function BookTwo() {
                         Doctor
                       </h1>
                       <h1 className="font-semibold text-[13px] text-black/90">
-                        dr.Ahmed Elgayar
+                        dr.Amira Elsayed
                       </h1>
                     </div>
                     <div className="flex justify-between ">
@@ -161,7 +165,10 @@ export default function BookTwo() {
                 <span className="relative z-10">BACK</span>
                 <span className="absolute inset-y-0 left-[-75%] w-4/12 bg-white/70 rotate-12 blur-lg z-0 group-hover:left-[125%] transition-all duration-1000 ease-in-out"></span>
               </button>
-              <button className="relative overflow-hidden px-4 py-2 bg-blue-700 text-white rounded-[14px] group">
+              <button
+                onClick={() => navigate("/")}
+                className="relative overflow-hidden px-4 py-2 bg-blue-700 text-white rounded-[14px] group"
+              >
                 <span className="relative z-10">Continue</span>
                 <span className="absolute inset-y-0 left-[-75%] w-2/12 bg-white/70 rotate-12 blur-lg z-0 group-hover:left-[125%] transition-all duration-1000 ease-in-out"></span>
               </button>

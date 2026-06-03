@@ -32,13 +32,13 @@ export default function Footer() {
             <h1>Contact</h1>
             <h1>Login</h1>
           </div>
-          <div className=" flex flex-col justify-between gap-1 ">
+          {/* <div className=" flex flex-col justify-between gap-1 ">
             <h1 className="font-bold mb-3 text-white text-[18px]">Social Media</h1>
 
             <h1>Facebook</h1>
             <h1>Whatsapp</h1>
             <h1>Instgram</h1>
-          </div>
+          </div> */}
           <div className=" flex flex-col justify-between gap-1 ">
             <h1 className="font-bold mb-3 text-white text-[18px]">Help Support</h1>
             <h1>Privacy Policy</h1>

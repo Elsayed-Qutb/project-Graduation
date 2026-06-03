@@ -5,7 +5,7 @@ import { Award } from "lucide-react";
 import { ShieldPlus } from 'lucide-react'
 import { Star } from 'lucide-react';
 
-import medicalteam from "../assets/medicalteam.svg";
+import docc from "../assets/docc.jpg";
 
 export default function About() {
   return (
@@ -25,14 +25,14 @@ export default function About() {
           <div className=" w-12/12 lg:w-11/12 grid grid-cols-2 lg:grid-cols-4 gap-2 p-0.5 lg:gap-2.5 mb-6">
             <div className=" group shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl hover:border border border-black/20 hover:border-[#3cc2a8] transtion duration-200 text-center text-[#3ba0de] hover:text-[#3cc2a8]">
               <Users className="bg-[#e7f6fd] group-hover:bg-[#d9ffe7] transition duration-300 rounded-2xl size-10 p-1.5 " />
-              <h1 className="font-bold text-[14px] lg:text-[24px]">50,000+</h1>
+              <h1 className="font-bold text-[14px] lg:text-[24px]">500+</h1>
               <p className=" font-normal text-[10px] lg:text-[13px] text-gray-600">
                 Verified Doctors
               </p>
             </div>
             <div className=" group shadow-lg shadow-blue-400/20 p-3 flex flex-col gap-2.5 justify-center items-center rounded-2xl hover:border border border-black/20 hover:border-[#3cc2a8] transtion duration-200 text-center text-[#3ba0de] hover:text-[#3cc2a8]">
               <CalendarCheck2 className="bg-[#e7f6fd] group-hover:bg-[#d9ffe7] rounded-2xl size-10 p-1.5" />
-              <h1 className="font-bold text-[14px] lg:text-[24px]">10,000+</h1>
+              <h1 className="font-bold text-[14px] lg:text-[24px]">1,000+</h1>
               <p className=" font-normal text-[10px] lg:text-[13px] text-gray-600">
                 Appointments Booked
               </p>
@@ -54,7 +54,9 @@ export default function About() {
           </div>
 
           <div className="  grid grid-cols-1 lg:grid-cols-2 rounded-2xl  items-center ">
-            <img className=" p-5 rounded-2xl" src={medicalteam}></img>
+           
+            <img className="bg-cover bg-center p-5 rounded-2xl" src={docc}></img>
+            
             <div className=" py -2 flex flex-col justify-between gap-2.5 lg:gap-5">
               <h1 className="font-bold text-[23px]">Our Mission</h1>
               <p className="text-gray-500 text-[14px] lg:text-[18px]">

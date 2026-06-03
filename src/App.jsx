@@ -24,6 +24,7 @@ import Otolaryngology from "./pages/specialities/Otolaryngology";
 import PlasticSurgery from "./pages/specialities/PlasticSurgery";
 import PhysicalTherapy from "./pages/specialities/PhysicalTherapy";
 import Doctorslist from "./components/Doctorslist";
+import ProfileDoc from "./pages/ProfileDoc";
 
 export default function App() {
   return (
@@ -36,24 +37,27 @@ export default function App() {
       <Route path="/bookOne" element={<BookOne />} />
       <Route path="/bookThree" element={<BookThree />} />
       <Route path="/bookFour" element={<BookFour />} />
+
+      <Route path="/ProfileDoc" element={<ProfileDoc />} />
+
       <Route path="/specialtiesList" element={<SpecialtiesList />} />
       <Route path="/generalPractice" element={<GeneralPractice />} />
       <Route path="/dentistry" element={<Dentistry />} />
-      <Route path = "/dermatology" element = {<Dermatology/>} />
-      <Route path = "/gynecology" element = {<Gynecology/>} />
-      <Route path = "/pediatrics" element = {<Pediatrics/>} />
-      <Route path = "/orthopedics" element = {<Orthopedics/>} />
-      <Route path = "/cardiology" element = {<Cardiology/>} />
-      <Route path = "/psychiatry" element = {<Psychiatry/>} />
-      <Route path = "/ophthalmology" element = {<Ophthalmology/>} />
-      <Route path = "/endocrinology" element = {<Endocrinology/>} />
-      <Route path = "/nephrology" element = {<Nephrology/>} />
-      <Route path = "/neurology" element = {<Neurology/>} />
-      <Route path = "/otolaryngology" element = {<Otolaryngology/>} />
-      <Route path = "/plastic-surgery" element = {<PlasticSurgery/>} />
-      <Route path = "/physical-therapy" element = {<PhysicalTherapy/>} />
-      <Route path = "doctors-list" element = {<Doctorslist/>}/>
-
+      <Route path="/dermatology" element={<Dermatology />} />
+      <Route path="/gynecology" element={<Gynecology />} />
+      <Route path="/pediatrics" element={<Pediatrics />} />
+      <Route path="/orthopedics" element={<Orthopedics />} />
+      <Route path="/cardiology" element={<Cardiology />} />
+      <Route path="/psychiatry" element={<Psychiatry />} />
+      <Route path="/ophthalmology" element={<Ophthalmology />} />
+      <Route path="/endocrinology" element={<Endocrinology />} />
+      <Route path="/nephrology" element={<Nephrology />} />
+      <Route path="/neurology" element={<Neurology />} />
+      <Route path="/otolaryngology" element={<Otolaryngology />} />
+      <Route path="/plastic-surgery" element={<PlasticSurgery />} />
+      <Route path="/physical-therapy" element={<PhysicalTherapy />} />
+      <Route path="/doctors-list" element={<Doctorslist />} />
     </Routes>
   );
 }
+  

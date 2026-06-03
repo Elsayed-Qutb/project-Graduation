@@ -36,7 +36,7 @@ export default function Header() {
             Contact
           </a>
         </nav>
-           <div class="container-input">
+           <div class="container-input hidden lg:flex">
               <input
                 type="text"
                 placeholder="Search"
@@ -69,13 +69,12 @@ export default function Header() {
               <span>p</span>
             </span>
             <span className="span-mother2">
-            <span>S</span>
+             <span>S</span>
               <span>i</span>
               <span>g</span>
-              <span>n</span>
-              <span className="text-white/0">-</span>
+              <span></span>
               <span>u</span>
-              <span>p</span>
+              <span>P</span>
             </span>
           </button>
 

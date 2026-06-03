@@ -110,6 +110,9 @@
   transition: 0.3s;
   outline: none;
   opacity: 0.8;
+  @media screen and (max-width:767px) {
+        width: 130px;
+      }
 }
 
 .container-input svg {
@@ -122,6 +125,9 @@
 .input:focus {
   opacity: 1;
   width: 250px;
+  @media screen and (max-width:767px) {
+        width:150px;
+      }
 }
 
 
