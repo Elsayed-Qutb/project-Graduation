@@ -164,10 +164,7 @@ export default function BookTwo() {
                 <span className="relative z-10">BACK</span>
                 <span className="absolute inset-y-0 left-[-75%] w-4/12 bg-white/70 rotate-12 blur-lg z-0 group-hover:left-[125%] transition-all duration-1000 ease-in-out"></span>
               </button>
-              <button
-                onClick={() => navigate("/")}
-                className="relative overflow-hidden px-4 py-2 bg-blue-700 text-white rounded-[14px] group"
-              >
+              <button  onClick={() => navigate("/")} className="relative overflow-hidden px-4 py-2 bg-blue-700 text-white rounded-[14px] group">
                 <span className="relative z-10">Continue</span>
                 <span className="absolute inset-y-0 left-[-75%] w-2/12 bg-white/70 rotate-12 blur-lg z-0 group-hover:left-[125%] transition-all duration-1000 ease-in-out"></span>
               </button>
