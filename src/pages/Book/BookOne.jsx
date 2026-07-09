@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 // import DrKumar from "../../assets/DrKumar.svg";
-import amira from "../../components/doctors/amiraelsayed.png";
+import amira from "../specialities/doctors/amiraelsayed.png";
 import "./BookOne.css";
 
 export default function BookOne() {

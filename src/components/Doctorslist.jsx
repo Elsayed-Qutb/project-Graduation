@@ -931,7 +931,7 @@ const navigate = useNavigate();
             </div>
 
 <div className="flex flex-col lg:flex-row gap-3 p-2 shadow-lg shadow-black/30 rounded-2xl">
-                <img src={salma} className="w-32 h-32 object-cover rounded-xl flex-shrink-0" />
+                <img src={salmaadel} className="w-32 h-32 object-cover rounded-xl flex-shrink-0" />
                  <div className="flex-1 flex flex-col gap-1.5">
                     <h1 className="font-bold text-[17px]">Dr. Salma Adel</h1>
                     <p className="text-blue-600">Pediatrician</p>

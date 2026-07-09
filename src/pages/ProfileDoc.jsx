@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import youstina from "../components/doctors/salmaadel.png";
+import youstina from "../pages/specialities/doctors/salmaadel.png";
 
 export default function ProfileDoc() {
   const navigate = useNavigate();

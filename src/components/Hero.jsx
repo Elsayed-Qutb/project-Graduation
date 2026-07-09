@@ -10,15 +10,9 @@ export default function Hero() {
             <p className="font-semibold bg-blue-100 text-blue-900 px-1.5 py-1.5 rounded-2xl w-7/12  lg:w-5/12 text-center text-[13px]">
               Together we build trust
             </p>
-<<<<<<< HEAD
-            <h1 className="font-bold text-[38px] text-black text-center lg:text-start">
-              Welcome to <br></br>{" "}
-              <span className="text-blue-600 tracking-widest text-[50px]">
-=======
             <h1 className="font-extrabold text-[38px] text-black text-center lg:text-start">
               Welcom to <br></br>{" "}
               <span className="text-blue-600 tracking-widest text-[42px]">
->>>>>>> f414fa9 (end)
                 MediLink
               </span>
             </h1>
